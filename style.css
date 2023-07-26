@@ -1,0 +1,115 @@
+body{
+    padding: 0;
+    margin:0;
+    background-color: blue;
+}
+table{
+    background-color: white;
+    position: relative;
+    width: 80%;
+    padding: 50px;
+    top: 50px;
+    left: 100px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+.header .line1 th{
+    text-align: left;
+
+}
+.body .line2 .b1{
+    display: flex;
+    position: relative;
+}
+.body .line2 td{
+    margin-top: 20px;
+}
+.body .line2 td div .side{
+    position: relative;
+    padding-left: 10px;
+    top: 50px;
+    margin-right: 60px;
+}
+.body .line3 .b2{
+    display:flex;
+    position: relative;
+}
+.body .line3 td div .side{
+    position: relative;
+    padding-left: 10px;
+    top: 50px;
+
+    margin-right: 50px;
+}
+.body .line2 td div button.sup{
+    border: none;
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.50;
+}
+.body .line3 td div button.sup{
+    border: none;
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.50;
+}
+.body .line2 td div button.sup:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.body .line3 td div button.sup:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.body .line2 .btnl{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.body .line3 .btnl{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.body .fa-regular:hover{
+    cursor: pointer;
+}
+.body button.moin{
+    background-color: cornflowerblue ;
+    border: transparent;
+    border-radius: 50%;
+}
+.body button.moin:hover{
+    cursor: pointer;
+}
+.body button.plus:hover{
+    cursor: pointer;
+}
+.body button.plus{
+    background-color: cornflowerblue;
+    border: transparent;
+    border-radius: 50%;
+}
+.body input[type="text"]{
+    width: 60px;
+    text-align: center;
+}
+.footer label[for='ipt'],#ipt{
+    position: relative;
+    left: 300px;
+}
+.footer input[type="text"]{
+    text-align: center;
+    width: 120px;
+}
+.body td div p.prix, p.prix2,  p.prix3{
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+    position: relative;
+    left: -20px;
+}

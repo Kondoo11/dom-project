@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de3fe0390b.js" crossorigin="anonymous"></script>
+
+    <title>document</title>
+</head>
+<body>
+    <table>
+        <thead class="header">
+          <tr class="line1">
+            <th>Article Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>subTOTAL</th>
+          </tr>
+        </thead>
+       <tbody class="body">
+       <tr class="line2">
+        <td class="b1">
+            <img src="produit-im/ps5.jpeg" alt="ps5" width="200px">
+            <div class="side">
+             <button class="btnl" id="btnl1"><i class="fa-regular fa-heart"></i></button>
+             <p>Playstation 5</p>
+             <button type="reset" class="sup">supprimer</button>
+            </div>
+        </td>
+        <td>
+          <div>
+            <button class="moin" id="l1">-</button>
+            <input type="text" value="1" step="1" class="qty" id="qty1" contenteditable="">
+            <button class="plus" id="l2">+</button>
+          </div>
+        </td>
+            <td ><div><p class="prix" > 450000 fr</p></div></td>
+      
+            <td><div><p class="prix2"> 450000 fr</p></div></td> 
+       </tr>
+       <tr class="line3">
+        <td class="b2">
+            <img src="produit-im/casque.jpg" alt="casque_ps5" width="180px" height="200px">
+            <div class="side">
+                <button class="btnl" id="btnl2"><i class="fa-regular fa-heart"></i></button>
+                <p>Casque ps5</p>
+                <button type="reset" class="sup">supprimer</button>
+            </div>
+
+        </td>
+        <td>
+            <button class="moin" id="m">-</button>
+            <input type="text" value="1" step="1" class="qty" id="qty2" contenteditable="">
+            <button class="plus" id="p">+</button>
+        </td>
+        <td ><div><p class="prix" id="prx" > 40000 fr</p></div></td>
+      
+        <td><div><p class="prix3" id="prix33"> 40000 fr</p></div></td>
+       </tr>
+       </tbody>
+       <tfoot class="footer">
+       <tr class="line4">
+        <td>
+            <label for="ipt">TOTAL =</label>
+            <input type="text" id="ipt" value="0" contenteditable="">
+        </td>
+       </tr>
+       </tfoot>
+    </table>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
